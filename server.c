@@ -27,7 +27,7 @@ int main(int argc, char **argv){
 	//create a socket
 	//AF_INET ==> comms with ipv4
 	//SOCK_STREAM ==> TCP
-	//0 ==> 
+	//0 ==> IP protocol
 	int server_socket=socket(AF_INET,SOCK_STREAM,0);
 
 	//declare a pointer to sockaddr_in struct and allocate memory for it
